@@ -1,0 +1,41 @@
+.RealizarPedido{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color:  #85c1e9 ;
+}
+.btn{ background-position: 0cm ;
+  background-position: right;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+/*
+.cuadro{
+    margin-top: 50px;
+    background-color: blue;
+    color: white;
+  }
+  */
+/*
+  .btn { background: #92c7eb;
+    background-image: url("http://res.freestockphotos.biz/pictures/15/15107-illustration-of-a-red-close-button-pv.png");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    width: 70px;
+    border-radius: 900px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+   }
+   .btn:hover
+   {
+    width: 75px;
+    height: 75px;
+   }
+   */
+
+    

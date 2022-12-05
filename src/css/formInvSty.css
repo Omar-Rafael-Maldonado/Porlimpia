@@ -1,0 +1,84 @@
+.formulario-inventario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.producto-input{
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+}
+.cantidad-input{
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+    outline: none;
+}
+.codigo-input{
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+    outline: none;
+}
+.precio-input{
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+    outline: none;
+}
+
+.agregar {
+    padding: 16px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    cursor: pointer;
+    outline: none;
+    background-color: #00471b;
+    color: #fff;
+    text-transform: capitalize;
+}
+.lista-inventario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+.cont-inventario{
+    width: auto;
+    min-height: 100px;
+    background-image: linear-gradient(55deg, #9a68df 0, #845edc 25%, #6955da 50%, #464dd8 75%, #0046d6 100%);
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+
+}
+
+.inventario {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.icon-refresh{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.cont-inventario.agotado{
+    background-color: red;
+}
